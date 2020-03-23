@@ -29,7 +29,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   
-    - name: "work" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "work" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Work" # Used in the UI, ie.: "New Post"
     folder: "site/content/work" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -40,7 +40,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   
-    - name: "research" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "research" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Reasearch and Treatments" # Used in the UI, ie.: "New Post"
     folder: "site/content/research" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -51,7 +51,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
-        - name: "condition" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "condition" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Your Condition" # Used in the UI, ie.: "New Post"
     folder: "site/content/condition" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -73,7 +73,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   
-    - name: "support" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "support" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Support and Services" # Used in the UI, ie.: "New Post"
     folder: "site/content/support" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -84,7 +84,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   
-    - name: "lifestyle" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "lifestyle" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Lifestyle" # Used in the UI, ie.: "New Post"
     folder: "site/content/lifestyle" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -95,7 +95,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
-        - name: "involved" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "involved" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Getting Involved" # Used in the UI, ie.: "New Post"
     folder: "site/content/involved" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
