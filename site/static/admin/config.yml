@@ -9,8 +9,9 @@ logo_url: https://www.musculardystrophyuk.org/wp-content/themes/md-uk/assets/img
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/post" # The path to the folder where the documents are stored
+    folder: "post/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    format: json
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -20,8 +21,9 @@ collections: # A list of collections the CMS should be able to edit
   
   - name: "mb" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Money and Benefits" # Used in the UI, ie.: "New Post"
-    folder: "post/mb" # The path to the folder where the documents are stored
+    folder: "mb" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    format: json
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -31,7 +33,7 @@ collections: # A list of collections the CMS should be able to edit
   
   - name: "work" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Work" # Used in the UI, ie.: "New Post"
-    folder: "site/content/work" # The path to the folder where the documents are stored
+    folder: "work" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
@@ -42,7 +44,7 @@ collections: # A list of collections the CMS should be able to edit
   
   - name: "research" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Reasearch and Treatments" # Used in the UI, ie.: "New Post"
-    folder: "site/content/research" # The path to the folder where the documents are stored
+    folder: "research" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
@@ -53,7 +55,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "condition" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Your Condition" # Used in the UI, ie.: "New Post"
-    folder: "site/content/condition" # The path to the folder where the documents are stored
+    folder: "condition" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
